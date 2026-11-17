@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="How Breathe handles local settings, breathing practice history, device backups, and privacy inquiries.">
+  <meta name="color-scheme" content="light">
+  <title>Privacy Policy · Breathe</title>
+  <style>
+    :root { --paper:#f7f6f0; --surface:#fffef9; --ink:#26392f; --muted:#58645b; --sage:#425e4d; --line:#d8dfd4; --tint:#e8eee2; }
+    * { box-sizing:border-box; }
+    html { scroll-padding-top:2rem; }
+    body { margin:0; background:var(--paper); color:var(--ink); font-family:system-ui,-apple-system,"Segoe UI",sans-serif; line-height:1.75; }
+    a { color:var(--sage); text-decoration-thickness:1px; text-underline-offset:.2em; overflow-wrap:anywhere; }
+    a:focus-visible { outline:3px solid var(--sage); outline-offset:4px; border-radius:2px; }
+    .wrap { width:min(100% - 3rem, 760px); margin-inline:auto; }
+    header { padding:2rem 0 1.3rem; border-bottom:1px solid var(--line); }
+    .brand { display:flex; align-items:center; gap:.7rem; font-size:1.2rem; font-weight:650; letter-spacing:.02em; }
+    .mark { width:.85rem; height:.85rem; border-radius:50%; background:var(--sage); box-shadow:0 0 0 6px var(--tint); margin:.35rem; }
+    main { padding-block:3.5rem 4rem; }
+    h1 { font-family:Georgia,"Times New Roman",serif; font-weight:400; line-height:1.1; font-size:clamp(2.8rem,8vw,4rem); letter-spacing:-.04em; margin:0 0 1rem; }
+    h2 { font-size:1.2rem; line-height:1.4; margin:2.5rem 0 .75rem; }
+    p { margin:0 0 1rem; }
+    .meta { color:var(--muted); font-size:.9rem; }
+    .summary { padding:1.4rem 1.5rem; margin:1.8rem 0; border:1px solid var(--line); border-radius:18px; background:var(--tint); }
+    .summary p:last-child { margin:0; }
+    ul { padding-left:1.3rem; margin:0 0 1rem; }
+    li + li { margin-top:.55rem; }
+    footer { border-top:1px solid var(--line); padding-block:1.5rem 2rem; color:var(--muted); font-size:.85rem; }
+    @media (max-width:480px) { .wrap { width:calc(100% - 2rem); } main { padding-top:2.5rem; } .summary { padding:1.1rem; } }
+    @media print { body { background:white; color:black; } .wrap { width:100%; } header,main,footer { padding-block:1rem; } h2 { break-after:avoid; } }
+  </style>
+</head>
+<body>
+  <header><div class="wrap brand"><span class="mark" aria-hidden="true"></span>Breathe</div></header>
+  <main class="wrap">
+    <h1>Privacy policy</h1>
+    <p class="meta">Last updated: November 17, 2026</p>
+    <p>This policy explains how Breathe, also named Breath Meditation on Android, handles information when you use the app. It applies to Android version 0.1.0 and package <span style="overflow-wrap:anywhere">com.arkntol.breath_meditation</span>.</p>
+    <div class="summary">
+      <p><strong>Your breathing practice works offline.</strong></p>
+      <p>Breathe saves your preferences and completed-session history on your device. The app does not send this information to the developer, use advertising or analytics services, or require an account. Android's own backup and device-transfer features may copy app data as described below.</p>
+    </div>
+
+    <section aria-labelledby="local-data">
+      <h2 id="local-data">Information stored by the app</h2>
+      <p>Breathe uses the following information to remember your choices and display your practice history:</p>
+      <ul>
+        <li><strong>Preferences:</strong> vibration, start instantly, timer visibility, and countdown visibility.</li>
+        <li><strong>Breathing configuration:</strong> selected session durations or cycle counts and your saved custom breathing phase timings.</li>
+        <li><strong>Completed sessions:</strong> a local session identifier, breathing technique and phase timings, cycle count, duration, and completion date and time.</li>
+      </ul>
+      <p>Interrupted or cancelled sessions are not added to completed-session history. The app does not measure your breathing, heart rate, or other health signals and does not connect to health-data services.</p>
+    </section>
+
+    <section aria-labelledby="sharing">
+      <h2 id="sharing">Collection and sharing</h2>
+      <p>The app does not transmit your preferences or practice history to us or to other companies. It contains no advertising, analytics, or developer-operated crash-reporting service. We do not sell app data.</p>
+      <p>Breathe does not ask for your name, email address, location, contacts, photos, microphone recordings, or an account. It does not use an advertising identifier or other device identifier to track you.</p>
+    </section>
+
+    <section aria-labelledby="backups">
+      <h2 id="backups">Android backups and device transfers</h2>
+      <p>Depending on your Android version, device manufacturer, and backup settings, Android may include Breathe's local files in a device backup or transfer them to another device. A backup may be stored with Google or another backup provider and restored when you reinstall the app or set up a device.</p>
+      <p>These are operating-system features, not a Breathe account or cloud-sync service. We do not receive or have access to these backup copies. You can review backup and restore options in your device and backup-account settings; the provider's own privacy policy applies to its service.</p>
+    </section>
+
+    <section aria-labelledby="deletion">
+      <h2 id="deletion">Retention and deletion</h2>
+      <p>Local preferences and completed-session records remain until you remove the app's stored data. Breathe does not automatically expire old session records.</p>
+      <p>To remove all local Breathe data, open Android Settings, select Apps, choose Breath Meditation, and use Storage &amp; cache → Clear storage or Clear data. The exact labels vary by device. This resets preferences, custom settings, and practice history.</p>
+      <p>Uninstalling normally removes local app data, but a backup can remain with your backup provider and may be restored later. Manage retained backup copies and restoration through your device or backup-account settings. We cannot delete copies that are controlled by your device or backup provider.</p>
+    </section>
+
+    <section aria-labelledby="security">
+      <h2 id="security">How local data is protected</h2>
+      <p>Breathe stores its files in the app's private Android storage, protected by Android's application sandbox. It relies on your device's operating-system protections and does not add a separate app-level encryption layer. Your device lock, operating-system updates, and backup settings help protect this information.</p>
+    </section>
+
+    <section aria-labelledby="contact">
+      <h2 id="contact">Developer and privacy contact</h2>
+      <p><strong>Developer:</strong> arkn<br><strong>Privacy email:</strong> <a href="mailto:fgb3420@gmail.com">fgb3420@gmail.com</a></p>
+      <p>If you contact us, we receive the contact details and information you choose to include. We use them to respond to your inquiry and handle your request. Our email provider processes those messages to deliver and store them. We retain correspondence only as needed to handle the inquiry and meet applicable legal obligations.</p>
+      <p>This policy describes the Android app. Opening this webpage or contacting us uses separate website-hosting and email services, which may process technical connection information under their own policies. Please avoid sending sensitive practice details that are not needed for your question.</p>
+    </section>
+
+    <section aria-labelledby="changes">
+      <h2 id="changes">Changes to this policy</h2>
+      <p>If the app's data practices change, we will update this policy and its last-updated date. Material changes will be communicated in the app or its release information as appropriate.</p>
+    </section>
+  </main>
+  <footer><div class="wrap">Breathe · Breath Meditation for Android</div></footer>
+</body>
+</html>
